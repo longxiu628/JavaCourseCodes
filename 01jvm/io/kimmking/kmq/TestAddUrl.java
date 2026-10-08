@@ -6,7 +6,6 @@ import java.net.URL;
 import java.net.URLClassLoader;
 
 public class TestAddUrl {
-
     public static void main(String[] args) throws Exception {
         URLClassLoader classLoader = (URLClassLoader) TestAddUrl.class.getClassLoader();
         String dir = "./lib";
